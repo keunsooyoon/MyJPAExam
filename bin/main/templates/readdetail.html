@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2> Read Detail </h2>
+
+	[[${user.uno}]] <br>
+	[[${user.uid}]] <br> 
+	[[${user.upw}]] <br>
+
+<a th:href="@{|/update/${user.uno}|}">update</a><br>
+<a th:href="@{|/delete/${user.uno}|}">delete</a><br>
+</body>
+</html>

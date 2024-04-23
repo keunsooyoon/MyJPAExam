@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2> Read List </h2>
+
+<a href="/create">CREATE</a><br><br>
+
+<th:block th:each="user: ${users}">
+
+	[[${user.uno}]] / 
+	<a th:href="@{|/readdetail/${user.uno}|}" th:text="${user.uid}"></a>
+	 / [[${user.upw}]] <br>
+
+</th:block>
+</body>
+</html>

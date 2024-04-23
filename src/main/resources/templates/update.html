@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2> Update </h2>
+
+
+<form action="/update" method="post">
+<input type="hidden" name="uno" th:value="${user.uno}">
+	<p>id : <input type="text" name="uid" th:value="${user.uid}">
+	<p>pw : <input type="text" name="upw" th:value="${user.upw}">
+<p><input type="submit" value="update">
+
+
+</form>
+</body>
+</html>
