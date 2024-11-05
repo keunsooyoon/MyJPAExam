@@ -1,6 +1,8 @@
 # MyJPAExam
 Springboot MyJPAExam
 
+![image](https://github.com/user-attachments/assets/dbfa1f08-4d6d-4b93-911f-fe6182d5912f)
+
 
 ![download](https://github.com/keunsooyoon/MyJPAExam/assets/42545968/e252411b-645b-47c2-98e9-61d221b43646)
 
